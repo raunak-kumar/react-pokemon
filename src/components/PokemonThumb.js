@@ -14,7 +14,6 @@ const PokemonThumb = ({ id, image, name, type, data }) => {
     function details() {
         setModalIsOpen(true)
     }
-    console.log(data);
     return (
         <>
             <div className={style} onClick={details}>
